@@ -1,0 +1,40 @@
+/* Footer styles */
+
+*{
+    font-family: "Lato", sans-serif;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer h5 {
+    color: #fff;
+}
+
+.footer p {
+    color: #ccc;
+}
+
+.list{
+    align-content: center;
+}
+
+.footer ul li a {
+    color: #ccc;
+}
+
+.footer ul li a:hover {
+    color: #fff;
+}
+
+.foot{
+    padding-left: 7rem;
+}
+
+/* Company logo style */
+.logo .company-logo {
+    width: 150px; /* Adjustment */
+}

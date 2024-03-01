@@ -1,0 +1,81 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    max-width: 800px; /* Limiting max width of the text container */
+    
+  }
+  
+  .text-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for text */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Box shadow for card-like effect */
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+  }
+  
+  .hero-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .tour-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Transition for background color change and zoom effect */
+    text-decoration: none; /* Remove default underline for links */
+  }
+  
+  .tour-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+  
+    .hero-content h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  
+    .hero-content p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  
+    .tour-button {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  }
+  
